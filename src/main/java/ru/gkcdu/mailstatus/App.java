@@ -179,9 +179,9 @@ public class App {
         Transformer t = TransformerFactory.newInstance().newTransformer();
         t.setOutputProperty(OutputKeys.METHOD, "xml");
         t.setOutputProperty(OutputKeys.INDENT, "yes");
-        String dest = "test.XML";
+        String dest = "test1.XML";
         StreamResult result = new StreamResult(dest);
-        // t.transform(sourceContent, result);
+        t.transform(sourceContent, result);
 
         // Закрываем соединение
         connection.close();

@@ -1,0 +1,162 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://russianpost.org/operationhistory/data" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="OperationHistoryData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="historyRecord" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AddressParameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="DestinationAddress" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:int" name="Index"/>
+                          <xs:element type="xs:string" name="Description"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="OperationAddress">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:int" name="Index"/>
+                          <xs:element type="xs:string" name="Description"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="MailDirect" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:short" name="Id"/>
+                          <xs:element type="xs:string" name="Code2A"/>
+                          <xs:element type="xs:string" name="Code3A"/>
+                          <xs:element type="xs:string" name="NameRU"/>
+                          <xs:element type="xs:string" name="NameEN"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="CountryFrom" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:short" name="Id"/>
+                          <xs:element type="xs:string" name="Code2A"/>
+                          <xs:element type="xs:string" name="Code3A"/>
+                          <xs:element type="xs:string" name="NameRU"/>
+                          <xs:element type="xs:string" name="NameEN"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="CountryOper">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:short" name="Id"/>
+                          <xs:element type="xs:string" name="Code2A"/>
+                          <xs:element type="xs:string" name="Code3A"/>
+                          <xs:element type="xs:string" name="NameRU"/>
+                          <xs:element type="xs:string" name="NameEN"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="FinanceParameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="Payment" minOccurs="0"/>
+                    <xs:element type="xs:byte" name="Value" minOccurs="0"/>
+                    <xs:element type="xs:short" name="MassRate" minOccurs="0"/>
+                    <xs:element type="xs:byte" name="InsrRate" minOccurs="0"/>
+                    <xs:element type="xs:byte" name="CustomDuty"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ItemParameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:long" name="Barcode"/>
+                    <xs:element type="xs:string" name="ValidRuType"/>
+                    <xs:element type="xs:string" name="ValidEnType"/>
+                    <xs:element type="xs:string" name="ComplexItemName" minOccurs="0"/>
+                    <xs:element name="MailRank" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Id"/>
+                          <xs:element type="xs:string" name="Name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="PostMark" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Id"/>
+                          <xs:element type="xs:string" name="Name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="MailType" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Id"/>
+                          <xs:element type="xs:string" name="Name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="MailCtg" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Id"/>
+                          <xs:element type="xs:string" name="Name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:byte" name="Mass" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="OperationParameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="OperType">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Id"/>
+                          <xs:element type="xs:string" name="Name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="OperAttr">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Id"/>
+                          <xs:element type="xs:string" name="Name" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:dateTime" name="OperDate"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="UserParameters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SendCtg" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Id"/>
+                          <xs:element type="xs:string" name="Name"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Sndr"/>
+                    <xs:element type="xs:string" name="Rcpn"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
