@@ -35,6 +35,11 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc10</artifactId>
+			<version>19.21.0.0</version>
+		</dependency>
 
 		<dependency>
 			<groupId>com.sun.xml.messaging.saaj</groupId>
@@ -139,11 +144,11 @@
 					</execution>
 				</executions>
 				<configuration>
-					<generatePackage>ru.gkcdu.execdocsprocessor.document.bindings.order2022</generatePackage>
+					<generatePackage>ru.gkcdu.mailstatus.bindings</generatePackage>
 					<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
 					<schemaDirectory>${project.basedir}/src/main/resources/xsd</schemaDirectory>
 					<schemaIncludes>
-						<include>order_fssp_2022_1.xsd</include>
+						<include>example.xsd</include>
 					</schemaIncludes>
 				</configuration>
 			</plugin>

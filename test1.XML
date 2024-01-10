@@ -1,1038 +1,1033 @@
-<?xml version="1.0" encoding="UTF-8"?><S:Envelope xmlns:S="http://www.w3.org/2003/05/soap-envelope">
-    <S:Body>
-        <ns7:getOperationHistoryResponse xmlns:ns2="http://russianpost.org/sms-info/data" xmlns:ns3="http://russianpost.org/operationhistory/data" xmlns:ns4="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns5="http://www.russianpost.org/custom-duty-info/data" xmlns:ns6="http://www.russianpost.org/RTM/DataExchangeESPP/Data" xmlns:ns7="http://russianpost.org/operationhistory">
-            <ns3:OperationHistoryData>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>801043</ns3:Index>
-                            <ns3:Description>АО "Почта России"</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:Payment>0</ns3:Payment>
-                        <ns3:Value>0</ns3:Value>
-                        <ns3:MassRate>7400</ns3:MassRate>
-                        <ns3:InsrRate>0</ns3:InsrRate>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:PostMark>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без отметки</ns3:Name>
-                        </ns3:PostMark>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                        <ns3:Mass>46</ns3:Mass>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>28</ns3:Id>
-                            <ns3:Name>Присвоение идентификатора</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>0</ns3:Id>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-24T11:43:29.427+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
-                        <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>170100</ns3:Index>
-                            <ns3:Description>Тверь 100</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:MassRate>8880</ns3:MassRate>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:PostMark>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без отметки</ns3:Name>
-                        </ns3:PostMark>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                        <ns3:Mass>46</ns3:Mass>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Прием</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Партионный</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-24T15:02:45.000+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
-                        <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:OperationAddress>
-                            <ns3:Index>170100</ns3:Index>
-                            <ns3:Description>Тверь 100</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Покинуло место приёма</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-24T15:39:24.000+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:Sndr/>
-                        <ns3:Rcpn/>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>170996</ns3:Index>
-                            <ns3:Description>Тверь УООП</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>3</ns3:Id>
-                            <ns3:Name>Прибыло в сортировочный центр</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-24T16:48:56.001+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr/>
-                        <ns3:Rcpn/>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>170996</ns3:Index>
-                            <ns3:Description>Тверь УООП</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:PostMark>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без отметки</ns3:Name>
-                        </ns3:PostMark>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                        <ns3:Mass>46</ns3:Mass>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Сортировка</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-24T16:52:56.000+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
-                        <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>170996</ns3:Index>
-                            <ns3:Description>Тверь УООП</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>4</ns3:Id>
-                            <ns3:Name>Покинуло сортировочный центр</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-25T04:25:26.001+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr/>
-                        <ns3:Rcpn/>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>140960</ns3:Index>
-                            <ns3:Description>Московский АСЦ</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>3</ns3:Id>
-                            <ns3:Name>Прибыло в сортировочный центр</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-25T08:16:15.001+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr/>
-                        <ns3:Rcpn/>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>140960</ns3:Index>
-                            <ns3:Description>Московский АСЦ</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>4</ns3:Id>
-                            <ns3:Name>Покинуло сортировочный центр</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-27T02:53:18.001+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr/>
-                        <ns3:Rcpn/>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>420300</ns3:Index>
-                            <ns3:Description>Казанский ЛПЦ</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>3</ns3:Id>
-                            <ns3:Name>Прибыло в сортировочный центр</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-28T00:40:09.001+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr/>
-                        <ns3:Rcpn/>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>420322</ns3:Index>
-                            <ns3:Description>Казанский ЛПЦ CFSM1-СМ</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:PostMark>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без отметки</ns3:Name>
-                        </ns3:PostMark>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                        <ns3:Mass>46</ns3:Mass>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Сортировка</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-28T04:22:11.000+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
-                        <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>420300</ns3:Index>
-                            <ns3:Description>Казанский ЛПЦ</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>4</ns3:Id>
-                            <ns3:Name>Покинуло сортировочный центр</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-28T14:04:52.001+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr/>
-                        <ns3:Rcpn/>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:Payment>0</ns3:Payment>
-                        <ns3:Value>0</ns3:Value>
-                        <ns3:MassRate>8880</ns3:MassRate>
-                        <ns3:InsrRate>0</ns3:InsrRate>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:PostMark>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без отметки</ns3:Name>
-                        </ns3:PostMark>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                        <ns3:Mass>46</ns3:Mass>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Прибыло в место вручения</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-11-28T16:52:28.000+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
-                        <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:Payment>0</ns3:Payment>
-                        <ns3:Value>0</ns3:Value>
-                        <ns3:MassRate>8880</ns3:MassRate>
-                        <ns3:InsrRate>0</ns3:InsrRate>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:PostMark>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без отметки</ns3:Name>
-                        </ns3:PostMark>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                        <ns3:Mass>46</ns3:Mass>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>8</ns3:Id>
-                            <ns3:Name>Обработка</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>18</ns3:Id>
-                            <ns3:Name>Передано почтальону</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-12-01T12:19:37.000+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
-                        <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-                <ns3:historyRecord>
-                    <ns3:AddressParameters>
-                        <ns3:DestinationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:DestinationAddress>
-                        <ns3:OperationAddress>
-                            <ns3:Index>420133</ns3:Index>
-                            <ns3:Description>Казань 133</ns3:Description>
-                        </ns3:OperationAddress>
-                        <ns3:MailDirect>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:MailDirect>
-                        <ns3:CountryFrom>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryFrom>
-                        <ns3:CountryOper>
-                            <ns3:Id>643</ns3:Id>
-                            <ns3:Code2A>RU</ns3:Code2A>
-                            <ns3:Code3A>RUS</ns3:Code3A>
-                            <ns3:NameRU>Российская Федерация</ns3:NameRU>
-                            <ns3:NameEN>Russian Federation</ns3:NameEN>
-                        </ns3:CountryOper>
-                    </ns3:AddressParameters>
-                    <ns3:FinanceParameters>
-                        <ns3:Payment>0</ns3:Payment>
-                        <ns3:Value>0</ns3:Value>
-                        <ns3:MassRate>8880</ns3:MassRate>
-                        <ns3:InsrRate>0</ns3:InsrRate>
-                        <ns3:CustomDuty>0</ns3:CustomDuty>
-                    </ns3:FinanceParameters>
-                    <ns3:ItemParameters>
-                        <ns3:Barcode>80104390892323</ns3:Barcode>
-                        <ns3:ValidRuType>false</ns3:ValidRuType>
-                        <ns3:ValidEnType>false</ns3:ValidEnType>
-                        <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
-                        <ns3:MailRank>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без разряда</ns3:Name>
-                        </ns3:MailRank>
-                        <ns3:PostMark>
-                            <ns3:Id>0</ns3:Id>
-                            <ns3:Name>Без отметки</ns3:Name>
-                        </ns3:PostMark>
-                        <ns3:MailType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Письмо</ns3:Name>
-                        </ns3:MailType>
-                        <ns3:MailCtg>
-                            <ns3:Id>1</ns3:Id>
-                            <ns3:Name>Заказное</ns3:Name>
-                        </ns3:MailCtg>
-                        <ns3:Mass>46</ns3:Mass>
-                    </ns3:ItemParameters>
-                    <ns3:OperationParameters>
-                        <ns3:OperType>
-                            <ns3:Id>2</ns3:Id>
-                            <ns3:Name>Вручение</ns3:Name>
-                        </ns3:OperType>
-                        <ns3:OperAttr>
-                            <ns3:Id>6</ns3:Id>
-                            <ns3:Name>Адресату почтальоном</ns3:Name>
-                        </ns3:OperAttr>
-                        <ns3:OperDate>2023-12-01T13:47:33.000+03:00</ns3:OperDate>
-                    </ns3:OperationParameters>
-                    <ns3:UserParameters>
-                        <ns3:SendCtg>
-                            <ns3:Id>5</ns3:Id>
-                            <ns3:Name>Корпоративный клиент</ns3:Name>
-                        </ns3:SendCtg>
-                        <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
-                        <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
-                    </ns3:UserParameters>
-                </ns3:historyRecord>
-            </ns3:OperationHistoryData>
-        </ns7:getOperationHistoryResponse>
-    </S:Body>
-</S:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<ns3:OperationHistoryData xmlns:ns3="http://russianpost.org/operationhistory/data">
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>801043</ns3:Index>
+                <ns3:Description>АО "Почта России"</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:Payment>0</ns3:Payment>
+            <ns3:Value>0</ns3:Value>
+            <ns3:MassRate>7400</ns3:MassRate>
+            <ns3:InsrRate>0</ns3:InsrRate>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:PostMark>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без отметки</ns3:Name>
+            </ns3:PostMark>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+            <ns3:Mass>46</ns3:Mass>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>28</ns3:Id>
+                <ns3:Name>Присвоение идентификатора</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>0</ns3:Id>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-24T11:43:29.427+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
+            <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>170100</ns3:Index>
+                <ns3:Description>Тверь 100</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:MassRate>8880</ns3:MassRate>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:PostMark>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без отметки</ns3:Name>
+            </ns3:PostMark>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+            <ns3:Mass>46</ns3:Mass>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Прием</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Партионный</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-24T15:02:45.000+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
+            <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:OperationAddress>
+                <ns3:Index>170100</ns3:Index>
+                <ns3:Description>Тверь 100</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Покинуло место приёма</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-24T15:39:24.000+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:Sndr />
+            <ns3:Rcpn />
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>170996</ns3:Index>
+                <ns3:Description>Тверь УООП</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>3</ns3:Id>
+                <ns3:Name>Прибыло в сортировочный центр</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-24T16:48:56.001+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr />
+            <ns3:Rcpn />
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>170996</ns3:Index>
+                <ns3:Description>Тверь УООП</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:PostMark>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без отметки</ns3:Name>
+            </ns3:PostMark>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+            <ns3:Mass>46</ns3:Mass>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Сортировка</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-24T16:52:56.000+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
+            <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>170996</ns3:Index>
+                <ns3:Description>Тверь УООП</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>4</ns3:Id>
+                <ns3:Name>Покинуло сортировочный центр</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-25T04:25:26.001+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr />
+            <ns3:Rcpn />
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>140960</ns3:Index>
+                <ns3:Description>Московский АСЦ</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>3</ns3:Id>
+                <ns3:Name>Прибыло в сортировочный центр</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-25T08:16:15.001+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr />
+            <ns3:Rcpn />
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>140960</ns3:Index>
+                <ns3:Description>Московский АСЦ</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>4</ns3:Id>
+                <ns3:Name>Покинуло сортировочный центр</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-27T02:53:18.001+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr />
+            <ns3:Rcpn />
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>420300</ns3:Index>
+                <ns3:Description>Казанский ЛПЦ</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>3</ns3:Id>
+                <ns3:Name>Прибыло в сортировочный центр</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-28T00:40:09.001+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr />
+            <ns3:Rcpn />
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>420322</ns3:Index>
+                <ns3:Description>Казанский ЛПЦ CFSM1-СМ</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:PostMark>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без отметки</ns3:Name>
+            </ns3:PostMark>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+            <ns3:Mass>46</ns3:Mass>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Сортировка</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-28T04:22:11.000+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
+            <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>420300</ns3:Index>
+                <ns3:Description>Казанский ЛПЦ</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>4</ns3:Id>
+                <ns3:Name>Покинуло сортировочный центр</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-28T14:04:52.001+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr />
+            <ns3:Rcpn />
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:Payment>0</ns3:Payment>
+            <ns3:Value>0</ns3:Value>
+            <ns3:MassRate>8880</ns3:MassRate>
+            <ns3:InsrRate>0</ns3:InsrRate>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:PostMark>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без отметки</ns3:Name>
+            </ns3:PostMark>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+            <ns3:Mass>46</ns3:Mass>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Прибыло в место вручения</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-11-28T16:52:28.000+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
+            <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:Payment>0</ns3:Payment>
+            <ns3:Value>0</ns3:Value>
+            <ns3:MassRate>8880</ns3:MassRate>
+            <ns3:InsrRate>0</ns3:InsrRate>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:PostMark>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без отметки</ns3:Name>
+            </ns3:PostMark>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+            <ns3:Mass>46</ns3:Mass>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>8</ns3:Id>
+                <ns3:Name>Обработка</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>18</ns3:Id>
+                <ns3:Name>Передано почтальону</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-12-01T12:19:37.000+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
+            <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+    <ns3:historyRecord>
+        <ns3:AddressParameters>
+            <ns3:DestinationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:DestinationAddress>
+            <ns3:OperationAddress>
+                <ns3:Index>420133</ns3:Index>
+                <ns3:Description>Казань 133</ns3:Description>
+            </ns3:OperationAddress>
+            <ns3:MailDirect>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:MailDirect>
+            <ns3:CountryFrom>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryFrom>
+            <ns3:CountryOper>
+                <ns3:Id>643</ns3:Id>
+                <ns3:Code2A>RU</ns3:Code2A>
+                <ns3:Code3A>RUS</ns3:Code3A>
+                <ns3:NameRU>Российская Федерация</ns3:NameRU>
+                <ns3:NameEN>Russian Federation</ns3:NameEN>
+            </ns3:CountryOper>
+        </ns3:AddressParameters>
+        <ns3:FinanceParameters>
+            <ns3:Payment>0</ns3:Payment>
+            <ns3:Value>0</ns3:Value>
+            <ns3:MassRate>8880</ns3:MassRate>
+            <ns3:InsrRate>0</ns3:InsrRate>
+            <ns3:CustomDuty>0</ns3:CustomDuty>
+        </ns3:FinanceParameters>
+        <ns3:ItemParameters>
+            <ns3:Barcode>80104390892323</ns3:Barcode>
+            <ns3:ValidRuType>false</ns3:ValidRuType>
+            <ns3:ValidEnType>false</ns3:ValidEnType>
+            <ns3:ComplexItemName>Письмо заказное</ns3:ComplexItemName>
+            <ns3:MailRank>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без разряда</ns3:Name>
+            </ns3:MailRank>
+            <ns3:PostMark>
+                <ns3:Id>0</ns3:Id>
+                <ns3:Name>Без отметки</ns3:Name>
+            </ns3:PostMark>
+            <ns3:MailType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Письмо</ns3:Name>
+            </ns3:MailType>
+            <ns3:MailCtg>
+                <ns3:Id>1</ns3:Id>
+                <ns3:Name>Заказное</ns3:Name>
+            </ns3:MailCtg>
+            <ns3:Mass>46</ns3:Mass>
+        </ns3:ItemParameters>
+        <ns3:OperationParameters>
+            <ns3:OperType>
+                <ns3:Id>2</ns3:Id>
+                <ns3:Name>Вручение</ns3:Name>
+            </ns3:OperType>
+            <ns3:OperAttr>
+                <ns3:Id>6</ns3:Id>
+                <ns3:Name>Адресату почтальоном</ns3:Name>
+            </ns3:OperAttr>
+            <ns3:OperDate>2023-12-01T13:47:33.000+03:00</ns3:OperDate>
+        </ns3:OperationParameters>
+        <ns3:UserParameters>
+            <ns3:SendCtg>
+                <ns3:Id>5</ns3:Id>
+                <ns3:Name>Корпоративный клиент</ns3:Name>
+            </ns3:SendCtg>
+            <ns3:Sndr>ООО "Долговые Инвестиции"</ns3:Sndr>
+            <ns3:Rcpn>Судебный участок № 9 по Ново-Савиновскому судебному району г. Казани</ns3:Rcpn>
+        </ns3:UserParameters>
+    </ns3:historyRecord>
+</ns3:OperationHistoryData>
